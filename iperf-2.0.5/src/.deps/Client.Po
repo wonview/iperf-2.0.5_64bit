@@ -1,0 +1,383 @@
+Client.o: Client.cpp \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
+ ../include/headers.h ../config.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdlib.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/features.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/cdefs.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/wordsize.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/gnu/stubs.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/gnu/stubs-lp64.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stddef.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/waitflags.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/waitstatus.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/endian.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/endian.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/byteswap.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/typesizes.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/byteswap-16.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/xlocale.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/time.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/select.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/select.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigset.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/time.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/sysmacros.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/pthreadtypes.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/alloca.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdlib-bsearch.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdlib-float.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdio.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/libio.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/_G_config.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/wchar.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stdarg.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdio_lim.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sys_errlist.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdio.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/assert.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/ctype.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/errno.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/errno.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/errno.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/errno.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/errno.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/errno-base.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/string.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/timex.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/math.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_val.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_valf.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_vall.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/inf.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/nan.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathdef.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathcalls.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathinline.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/strings.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/socket.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/uio.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/uio.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/socket.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/socket_type.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sockaddr.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/socket.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/socket.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/sockios.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/sockios.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/time.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/signal.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/signum.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/siginfo.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigaction.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigcontext.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/sigcontext.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/int-ll64.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/bitsperlong.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/bitsperlong.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/posix_types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/stddef.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/posix_types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/posix_types.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigstack.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/ucontext.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/procfs.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/user.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigthread.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/unistd.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/posix_opt.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/environments.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/confname.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/getopt.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/syslog.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/syslog.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/syslog-path.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netdb.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netinet/in.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stdint.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdint.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/wchar.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/in.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/rpc/netdb.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/netdb.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netinet/tcp.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/arpa/inet.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/pthread.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sched.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sched.h \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/setjmp.h \
+ ../include/iperf-int.h ../include/gettimeofday.h ../include/inet_aton.h \
+ ../include/headers.h ../include/snprintf.h ../include/Client.hpp \
+ ../include/Settings.hpp ../include/Thread.h ../include/Condition.h \
+ ../include/Mutex.h ../include/util.h ../include/Reporter.h \
+ ../include/Timestamp.hpp ../include/Thread.h ../include/SocketAddr.h \
+ ../include/PerfSocket.hpp ../include/Extractor.h ../include/delay.hpp \
+ ../include/util.h ../include/Locale.h
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdc-predef.h:
+
+../include/headers.h:
+
+../config.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdlib.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/features.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/cdefs.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/wordsize.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/gnu/stubs.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/gnu/stubs-lp64.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stddef.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/waitflags.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/waitstatus.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/endian.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/endian.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/byteswap.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/typesizes.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/byteswap-16.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/xlocale.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/time.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/select.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/select.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigset.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/time.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/sysmacros.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/pthreadtypes.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/alloca.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdlib-bsearch.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdlib-float.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdio.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/libio.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/_G_config.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/wchar.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stdarg.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdio_lim.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sys_errlist.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/stdio.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/assert.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/ctype.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/errno.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/errno.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/errno.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/errno.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/errno.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/errno-base.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/string.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/timex.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/math.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_val.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_valf.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/huge_vall.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/inf.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/nan.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathdef.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathcalls.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/mathinline.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/strings.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/socket.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/uio.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/uio.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/socket.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/socket_type.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sockaddr.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/socket.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/socket.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/sockios.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/sockios.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/time.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/signal.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/signum.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/siginfo.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigaction.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigcontext.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/sigcontext.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/int-ll64.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/bitsperlong.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/bitsperlong.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/posix_types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/linux/stddef.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm/posix_types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/asm-generic/posix_types.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigstack.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/ucontext.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/procfs.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/user.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sigthread.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/unistd.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/posix_opt.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/environments.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/confname.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/getopt.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/syslog.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sys/syslog.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/syslog-path.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netdb.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netinet/in.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/lib/gcc/aarch64-linux-gnu/4.9.3/include/stdint.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdint.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/wchar.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/in.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/rpc/netdb.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/netdb.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/netinet/tcp.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/arpa/inet.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/pthread.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/sched.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/sched.h:
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/bits/setjmp.h:
+
+../include/iperf-int.h:
+
+../include/gettimeofday.h:
+
+../include/inet_aton.h:
+
+../include/headers.h:
+
+../include/snprintf.h:
+
+../include/Client.hpp:
+
+../include/Settings.hpp:
+
+../include/Thread.h:
+
+../include/Condition.h:
+
+../include/Mutex.h:
+
+../include/util.h:
+
+../include/Reporter.h:
+
+../include/Timestamp.hpp:
+
+../include/Thread.h:
+
+../include/SocketAddr.h:
+
+../include/PerfSocket.hpp:
+
+../include/Extractor.h:
+
+../include/delay.hpp:
+
+../include/util.h:
+
+../include/Locale.h:

@@ -1,0 +1,7 @@
+snprintf.o: snprintf.c \
+ /home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdc-predef.h \
+ ../config.h
+
+/home/alex/work/source/a64/lichee/out/sun50iw1p1/android/common/buildroot/external-toolchain/aarch64-linux-gnu/libc/usr/include/stdc-predef.h:
+
+../config.h:
